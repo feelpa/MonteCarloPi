@@ -3,7 +3,7 @@ public class PiEstimate {
     public static void main(String[] args) {
         //Check if number of simulations is present
         if(args.length != 1) {
-            System.out.println("Usage:\njava -jar PiEstimate.jar 1eX\n" +
+            System.out.println("Usage:\njava -jar MonteCarloPi.jar 1eX\n" +
                     "The parameter represents the number of points simulated onto the plane.\n" +
                     "'X' is your exponent of choice and in order to get a significant result MUST be >= 3.");
             System.exit(1);
@@ -11,7 +11,7 @@ public class PiEstimate {
         //Check if number of simulations is big enough to get a significant result
         int nThrows = Double.valueOf(args[0]).intValue();
         if(nThrows < 1000) {
-            System.out.println("Usage:\njava -jar PiEstimate.jar 1eX\n" +
+            System.out.println("Usage:\njava -jar MonteCarloPi.jar 1eX\n" +
                     "The parameter represents the number of points simulated onto the plane.\n" +
                     "'X' is your exponent of choice and in order to get a significant result MUST be >= 3.");
             System.exit(1);
