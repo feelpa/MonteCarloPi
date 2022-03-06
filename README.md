@@ -34,7 +34,7 @@ to the total number of points *n*.
 
 Therefore, we can estimate π:
 
-![](/readme-resources/equation(2).png)
+![](/readme-resources/equation(4).png)
 
 Thanks to the law of large numbers, we will eventually come very close to π.
 ## Usage
